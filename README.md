@@ -17,19 +17,22 @@
 ## 📂 프로젝트 구조
 
 llm_project/
-├── fastapi_ai/
-│ ├── main.py # FastAPI 메인 엔드포인트
-│ ├── models/ # AI 모델 파일들
-│ └── utils/ # 공통 유틸리티 함수들
-├── spring_app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/ # Spring Java 소스
-│ │ │ └── resources/ # templates, static 등
-│ └── pom.xml # Maven 의존성 설정
-├── requirements.txt # Python 패키지 목록
-├── .gitignore # Git 추적 제외 목록
-└── README.md # 프로젝트 설명 문서
+├── fastapi_ai/                         # FastAPI 기반 AI 서비스
+│   ├── main.py                         # FastAPI 메인 엔드포인트
+│   ├── models/                         # AI 모델 파일들
+│   └── utils/                          # 공통 유틸리티 함수들
+│
+├── spring_app/                         # Spring Boot 기반 웹 애플리케이션
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/                   # Spring Java 소스
+│   │       └── resources/              # templates, static 등
+│   └── pom.xml                         # Maven 의존성 설정
+│
+├── requirements.txt                   # Python 패키지 목록
+├── .gitignore                         # Git 추적 제외 목록
+└── README.md                          # 프로젝트 설명 문서
+
 
 ---
 

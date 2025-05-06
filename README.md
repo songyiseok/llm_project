@@ -13,9 +13,9 @@
 - 🙋 **회원 기능**: 회원가입/로그인, 마이페이지, 커뮤니티 게시판 등 사용자 맞춤 기능을 제공합니다.
 
 ---
-
 ## 📂 프로젝트 구조
 
+```
 llm_project/
 ├── fastapi_ai/                         # FastAPI 기반 AI 서비스
 │   ├── main.py                         # FastAPI 메인 엔드포인트
@@ -32,6 +32,8 @@ llm_project/
 ├── requirements.txt                   # Python 패키지 목록
 ├── .gitignore                         # Git 추적 제외 목록
 └── README.md                          # 프로젝트 설명 문서
+```
+
 
 
 ---
